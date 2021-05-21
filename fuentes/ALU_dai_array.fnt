@@ -4,7 +4,7 @@ fn main()
     var b;
 
     let b = a[1];
-    let a[2] = 13; /* Nos aseguramos que no hayamos hecho cualquier tontería con la memoria */
+    let a[1] = 13; /* Nos aseguramos que no hayamos hecho cualquier tontería con la memoria */
 
     print b
 endfn
