@@ -1,0 +1,6 @@
+fn main()
+    var a;
+    let a = 50;
+
+    print a
+endfn
