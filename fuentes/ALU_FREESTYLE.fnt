@@ -1,9 +1,13 @@
 fn main()
-    var a : array int 5;
-    let a[1] = 12;
+    var a : array int 2,2,2,2;
+    let a[1,1,0,2] = 12;
+    var c : array int 1,1;
+    let c[0,1] = 2;
     var b;
+    var d;
+    let d = 1;
 
-    let b = a[1];
+    let b = a[d,1,0,c[0,1]];
 
 
     print b

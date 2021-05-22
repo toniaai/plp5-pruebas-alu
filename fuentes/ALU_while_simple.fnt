@@ -1,0 +1,15 @@
+fn main()
+    var i;
+    let i = 0;
+
+    var a : array int 10;
+    while 10-i
+     blq
+
+      let a[i] = i;
+      let i = i + 1
+
+    fblq;
+
+    print a[2]
+endfn

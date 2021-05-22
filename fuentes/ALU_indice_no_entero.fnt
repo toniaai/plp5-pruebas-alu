@@ -1,0 +1,10 @@
+fn main()
+    var a : array int 5;
+    let a[1.5,2] = 12;
+    var b;
+
+    let b = a[1];
+
+
+    print b
+endfn
