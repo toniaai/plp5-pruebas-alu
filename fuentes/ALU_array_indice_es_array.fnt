@@ -1,0 +1,12 @@
+fn main()
+    var a : array int 5;
+    let a[2] = 12;
+    var c : array int 1,1;
+    let c[1,1] = 2;
+    var b;
+
+    let b = a[c[1,1]];
+    
+
+    print b
+endfn

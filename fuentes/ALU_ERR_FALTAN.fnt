@@ -1,0 +1,7 @@
+fn main()
+    var a : array int 5,5;
+    var b;
+
+    let b = a[3];
+    print b /* No deberia llegar aqui */
+endfn

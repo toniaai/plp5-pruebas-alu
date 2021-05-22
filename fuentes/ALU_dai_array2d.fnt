@@ -1,0 +1,10 @@
+fn main()
+    var a : array int 5,5;
+    let a[1,1] = 12;
+    var b;
+
+    let b = a[1,1];
+    let a[1,1] = 13; /* Nos aseguramos que no hayamos hecho cualquier tontería con la memoria */
+
+    print b
+endfn
