@@ -1,0 +1,10 @@
+fn main() 
+    var b; /*1 posicion, la 0*/
+
+    blq
+        var a:array int 10,10,10,10; /*10000 posiciones, 1-10000*/
+        var c:array int 5999 /*5999 posiciones, 10001-15999, no debe de dar error*/
+    fblq;
+    var a:array int 10,10,10,10; /*10000 posiciones, 1-10000*/
+    var c:array int 5999 /*5999 posiciones, 10001-15999, no debe de dar error*/
+endfn

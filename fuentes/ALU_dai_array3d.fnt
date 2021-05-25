@@ -5,6 +5,6 @@ fn main()
 
     let b = a[1,4,2];
     let a[1,4,2] = 13; /* Nos aseguramos que no hayamos hecho cualquier tontería con la memoria */
-
+    var c;
     print b
 endfn

@@ -1,14 +1,8 @@
 fn main()
-    var a : array int 2,2,2,2;
-    let a[1,1,0,2] = 12;
-    var c : array int 1,1;
-    let c[0,1] = 2;
-    var b;
-    var d;
-    let d = 1;
+    var i;
+    var j;
+    var a : array int 4,3;
+    var c;
 
-    let b = a[d,1,0,c[0,1]];
-
-
-    print b
+    let a[3,0] = 7777
 endfn

@@ -1,0 +1,10 @@
+fn main()
+
+    var a : real;
+    var b : int;
+    let b = 7;
+    let a = b;
+
+    print a
+
+endfn
